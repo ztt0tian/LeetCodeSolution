@@ -17,6 +17,7 @@ import java.util.List;
 //        "()(())",
 //        "()()()"
 //        ]
+//    每找到一个左括号，就在其后面加一个完整的括号，最后再在开头加一个()，就形成了所有的情况
 //       勉强通过，但是时间花费太高了
 public class P22_too_long {
     public static void main(String[] args) {
