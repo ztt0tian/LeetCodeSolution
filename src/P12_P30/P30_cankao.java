@@ -40,7 +40,7 @@ public class P30_cankao {
         System.out.println(res);
     }
     public static ArrayList<Integer> findSubstring(String S, String[] L) {
-        // Note: The Solution object is instantiated only once and is reused by each test case.
+        // Note: The Solution object is instantiated only once and is reused by each Weather case.
         ArrayList<Integer> res = new ArrayList<Integer>();
         if(S==null || S.length()==0 || L==null || L.length==0)
             return res;
