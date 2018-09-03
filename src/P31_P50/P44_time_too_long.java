@@ -26,7 +26,7 @@ public class P44_time_too_long {
         System.out.println(isMatch(s, p));
     }
 
-    public static boolean isMatch(String s, String p) {
+    private static boolean isMatch(String s, String p) {
         if (s == null) {
             return p == null;
         }
